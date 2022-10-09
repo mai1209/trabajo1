@@ -1,0 +1,69 @@
+*{
+    margin: 1%;
+    font-family:monospaces ;
+    background-color: rgb(190, 190, 196);
+}
+
+.menu{
+    font-family:monospaces ;
+    text-decoration: none;
+    color: black;
+    font-size:15px ;
+    margin: 0px 25px 0px 0px;
+ 
+}
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(190, 190, 196);
+    block-size: 80px;
+    border: outset 5px ;
+    
+   
+
+}
+
+.historia{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p{
+    width: 50%;
+}
+
+.listas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+    
+
+}
+
+.albunes {
+    display: flex;
+    flex-direction: column;
+    width:250px ;
+    height:250px ;
+ }
+
+.hits{
+    display: flex;
+    flex-direction: column;
+    width:250px ;
+    height:250px ;
+
+}
+
+.imagenes{
+   text-align: center;
+   
+}
+
